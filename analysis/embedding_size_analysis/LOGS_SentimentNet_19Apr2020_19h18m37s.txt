@@ -1,0 +1,725 @@
+2020-04-19 19:18:37,574 | train.py   | line 44 : COMPUTE DEVICE: cuda
+2020-04-19 19:19:59,527 | vocab.py   | line 431: Loading vectors from .vector_cache/glove.6B.300d.txt.pt
+2020-04-19 19:19:59,977 | train.py   | line 69 : ----------------------------------------------------------------
+2020-04-19 19:19:59,977 | train.py   | line 70 : ++++++++                    PARAMS                      ++++++++
+2020-04-19 19:19:59,977 | train.py   | line 71 : UNIT           : LSTM
+2020-04-19 19:19:59,977 | train.py   | line 72 : # LAYERS       : 1
+2020-04-19 19:19:59,977 | train.py   | line 73 : EMBEDDING SIZE :   16
+2020-04-19 19:19:59,977 | train.py   | line 74 : SEQUENCE LENGTH:  250
+2020-04-19 19:19:59,977 | train.py   | line 75 : ----------------------------------------------------------------
+2020-04-19 19:20:02,318 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:02,318 | train.py   | line 92 : #### EPOCH #    1
+2020-04-19 19:20:02,318 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:02,434 | train.py   | line 138: # BATCH:    5 | LOSS:    0.6958 | TRAIN ACC:  44.5312 %
+2020-04-19 19:20:02,519 | train.py   | line 138: # BATCH:   10 | LOSS:    0.6906 | TRAIN ACC:  57.0312 %
+2020-04-19 19:20:02,605 | train.py   | line 138: # BATCH:   15 | LOSS:    0.6907 | TRAIN ACC:  53.1250 %
+2020-04-19 19:20:02,687 | train.py   | line 138: # BATCH:   20 | LOSS:    0.6930 | TRAIN ACC:  43.7500 %
+2020-04-19 19:20:02,762 | train.py   | line 138: # BATCH:   25 | LOSS:    0.6948 | TRAIN ACC:  48.4375 %
+2020-04-19 19:20:02,837 | train.py   | line 138: # BATCH:   30 | LOSS:    0.6901 | TRAIN ACC:  51.5625 %
+2020-04-19 19:20:02,913 | train.py   | line 138: # BATCH:   35 | LOSS:    0.6911 | TRAIN ACC:  47.6562 %
+2020-04-19 19:20:02,988 | train.py   | line 138: # BATCH:   40 | LOSS:    0.6910 | TRAIN ACC:  52.3438 %
+2020-04-19 19:20:03,064 | train.py   | line 138: # BATCH:   45 | LOSS:    0.6987 | TRAIN ACC:  46.8750 %
+2020-04-19 19:20:03,140 | train.py   | line 138: # BATCH:   50 | LOSS:    0.6924 | TRAIN ACC:  51.5625 %
+2020-04-19 19:20:03,217 | train.py   | line 138: # BATCH:   55 | LOSS:    0.6861 | TRAIN ACC:  56.2500 %
+2020-04-19 19:20:03,292 | train.py   | line 138: # BATCH:   60 | LOSS:    0.6844 | TRAIN ACC:  56.2500 %
+2020-04-19 19:20:03,367 | train.py   | line 138: # BATCH:   65 | LOSS:    0.6887 | TRAIN ACC:  57.8125 %
+2020-04-19 19:20:03,442 | train.py   | line 138: # BATCH:   70 | LOSS:    0.6712 | TRAIN ACC:  60.1562 %
+2020-04-19 19:20:03,518 | train.py   | line 138: # BATCH:   75 | LOSS:    0.6589 | TRAIN ACC:  60.9375 %
+2020-04-19 19:20:03,594 | train.py   | line 138: # BATCH:   80 | LOSS:    0.6435 | TRAIN ACC:  66.4062 %
+2020-04-19 19:20:03,671 | train.py   | line 138: # BATCH:   85 | LOSS:    0.6376 | TRAIN ACC:  63.2812 %
+2020-04-19 19:20:03,743 | train.py   | line 138: # BATCH:   90 | LOSS:    0.6220 | TRAIN ACC:  68.7500 %
+2020-04-19 19:20:03,815 | train.py   | line 138: # BATCH:   95 | LOSS:    0.6835 | TRAIN ACC:  58.5938 %
+2020-04-19 19:20:03,886 | train.py   | line 138: # BATCH:  100 | LOSS:    0.6104 | TRAIN ACC:  64.8438 %
+2020-04-19 19:20:03,965 | train.py   | line 138: # BATCH:  105 | LOSS:    0.6268 | TRAIN ACC:  68.7500 %
+2020-04-19 19:20:04,036 | train.py   | line 138: # BATCH:  110 | LOSS:    0.5794 | TRAIN ACC:  67.9688 %
+2020-04-19 19:20:04,108 | train.py   | line 138: # BATCH:  115 | LOSS:    0.6271 | TRAIN ACC:  66.4062 %
+2020-04-19 19:20:04,179 | train.py   | line 138: # BATCH:  120 | LOSS:    0.6088 | TRAIN ACC:  66.4062 %
+2020-04-19 19:20:04,251 | train.py   | line 138: # BATCH:  125 | LOSS:    0.6091 | TRAIN ACC:  72.6562 %
+2020-04-19 19:20:04,322 | train.py   | line 138: # BATCH:  130 | LOSS:    0.5799 | TRAIN ACC:  67.1875 %
+2020-04-19 19:20:04,394 | train.py   | line 138: # BATCH:  135 | LOSS:    0.6389 | TRAIN ACC:  67.9688 %
+2020-04-19 19:20:04,465 | train.py   | line 138: # BATCH:  140 | LOSS:    0.6245 | TRAIN ACC:  69.5312 %
+2020-04-19 19:20:04,537 | train.py   | line 138: # BATCH:  145 | LOSS:    0.5316 | TRAIN ACC:  75.0000 %
+2020-04-19 19:20:04,596 | train.py   | line 138: # BATCH:  150 | LOSS:    0.5128 | TRAIN ACC:  77.3438 %
+2020-04-19 19:20:04,667 | train.py   | line 138: # BATCH:  155 | LOSS:    0.4627 | TRAIN ACC:  78.9062 %
+2020-04-19 19:20:04,739 | train.py   | line 138: # BATCH:  160 | LOSS:    0.5597 | TRAIN ACC:  70.3125 %
+2020-04-19 19:20:04,810 | train.py   | line 138: # BATCH:  165 | LOSS:    0.5516 | TRAIN ACC:  70.3125 %
+2020-04-19 19:20:04,881 | train.py   | line 138: # BATCH:  170 | LOSS:    0.4700 | TRAIN ACC:  78.9062 %
+2020-04-19 19:20:04,953 | train.py   | line 138: # BATCH:  175 | LOSS:    0.5987 | TRAIN ACC:  68.7500 %
+2020-04-19 19:20:05,024 | train.py   | line 138: # BATCH:  180 | LOSS:    0.4700 | TRAIN ACC:  79.6875 %
+2020-04-19 19:20:05,096 | train.py   | line 138: # BATCH:  185 | LOSS:    0.4108 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:05,167 | train.py   | line 138: # BATCH:  190 | LOSS:    0.4875 | TRAIN ACC:  75.0000 %
+2020-04-19 19:20:05,239 | train.py   | line 138: # BATCH:  195 | LOSS:    0.4589 | TRAIN ACC:  79.6875 %
+2020-04-19 19:20:05,259 | train.py   | line 156: 
+2020-04-19 19:20:05,259 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:06,966 | train.py   | line 174: **** VALIDATION ACCURACY = 78.05 %
+2020-04-19 19:20:06,966 | train.py   | line 175: 
+2020-04-19 19:20:06,966 | train.py   | line 176: 
+2020-04-19 19:20:06,966 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:06,966 | train.py   | line 92 : #### EPOCH #    2
+2020-04-19 19:20:06,966 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:07,059 | train.py   | line 138: # BATCH:    5 | LOSS:    0.3365 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:07,130 | train.py   | line 138: # BATCH:   10 | LOSS:    0.3849 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:07,200 | train.py   | line 138: # BATCH:   15 | LOSS:    0.3399 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:07,272 | train.py   | line 138: # BATCH:   20 | LOSS:    0.4940 | TRAIN ACC:  76.5625 %
+2020-04-19 19:20:07,346 | train.py   | line 138: # BATCH:   25 | LOSS:    0.3356 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:07,418 | train.py   | line 138: # BATCH:   30 | LOSS:    0.4608 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:07,488 | train.py   | line 138: # BATCH:   35 | LOSS:    0.2875 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:07,559 | train.py   | line 138: # BATCH:   40 | LOSS:    0.4507 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:07,630 | train.py   | line 138: # BATCH:   45 | LOSS:    0.3918 | TRAIN ACC:  80.4688 %
+2020-04-19 19:20:07,701 | train.py   | line 138: # BATCH:   50 | LOSS:    0.3516 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:07,772 | train.py   | line 138: # BATCH:   55 | LOSS:    0.3512 | TRAIN ACC:  82.8125 %
+2020-04-19 19:20:07,843 | train.py   | line 138: # BATCH:   60 | LOSS:    0.3513 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:07,914 | train.py   | line 138: # BATCH:   65 | LOSS:    0.4484 | TRAIN ACC:  82.8125 %
+2020-04-19 19:20:07,984 | train.py   | line 138: # BATCH:   70 | LOSS:    0.3040 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:08,055 | train.py   | line 138: # BATCH:   75 | LOSS:    0.4836 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:08,126 | train.py   | line 138: # BATCH:   80 | LOSS:    0.4302 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:08,196 | train.py   | line 138: # BATCH:   85 | LOSS:    0.3142 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:08,267 | train.py   | line 138: # BATCH:   90 | LOSS:    0.4417 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:08,337 | train.py   | line 138: # BATCH:   95 | LOSS:    0.4142 | TRAIN ACC:  80.4688 %
+2020-04-19 19:20:08,408 | train.py   | line 138: # BATCH:  100 | LOSS:    0.2479 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:08,486 | train.py   | line 138: # BATCH:  105 | LOSS:    0.3458 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:08,556 | train.py   | line 138: # BATCH:  110 | LOSS:    0.3712 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:08,626 | train.py   | line 138: # BATCH:  115 | LOSS:    0.3710 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:08,697 | train.py   | line 138: # BATCH:  120 | LOSS:    0.4030 | TRAIN ACC:  80.4688 %
+2020-04-19 19:20:08,768 | train.py   | line 138: # BATCH:  125 | LOSS:    0.3494 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:08,838 | train.py   | line 138: # BATCH:  130 | LOSS:    0.3660 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:08,909 | train.py   | line 138: # BATCH:  135 | LOSS:    0.3873 | TRAIN ACC:  80.4688 %
+2020-04-19 19:20:08,979 | train.py   | line 138: # BATCH:  140 | LOSS:    0.3519 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:09,038 | train.py   | line 138: # BATCH:  145 | LOSS:    0.3210 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:09,108 | train.py   | line 138: # BATCH:  150 | LOSS:    0.3147 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:09,179 | train.py   | line 138: # BATCH:  155 | LOSS:    0.2597 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:09,249 | train.py   | line 138: # BATCH:  160 | LOSS:    0.3390 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:09,320 | train.py   | line 138: # BATCH:  165 | LOSS:    0.3890 | TRAIN ACC:  81.2500 %
+2020-04-19 19:20:09,390 | train.py   | line 138: # BATCH:  170 | LOSS:    0.2424 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:09,460 | train.py   | line 138: # BATCH:  175 | LOSS:    0.5004 | TRAIN ACC:  78.9062 %
+2020-04-19 19:20:09,531 | train.py   | line 138: # BATCH:  180 | LOSS:    0.3674 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:09,601 | train.py   | line 138: # BATCH:  185 | LOSS:    0.3302 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:09,672 | train.py   | line 138: # BATCH:  190 | LOSS:    0.3070 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:09,742 | train.py   | line 138: # BATCH:  195 | LOSS:    0.3780 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:09,763 | train.py   | line 156: 
+2020-04-19 19:20:09,763 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:11,410 | train.py   | line 174: **** VALIDATION ACCURACY = 81.36 %
+2020-04-19 19:20:11,410 | train.py   | line 175: 
+2020-04-19 19:20:11,410 | train.py   | line 176: 
+2020-04-19 19:20:11,410 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:11,410 | train.py   | line 92 : #### EPOCH #    3
+2020-04-19 19:20:11,410 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:11,503 | train.py   | line 138: # BATCH:    5 | LOSS:    0.2851 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:11,573 | train.py   | line 138: # BATCH:   10 | LOSS:    0.2092 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:11,643 | train.py   | line 138: # BATCH:   15 | LOSS:    0.2911 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:11,713 | train.py   | line 138: # BATCH:   20 | LOSS:    0.1973 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:11,783 | train.py   | line 138: # BATCH:   25 | LOSS:    0.2528 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:11,853 | train.py   | line 138: # BATCH:   30 | LOSS:    0.1077 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:11,924 | train.py   | line 138: # BATCH:   35 | LOSS:    0.2425 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:11,994 | train.py   | line 138: # BATCH:   40 | LOSS:    0.3461 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:12,064 | train.py   | line 138: # BATCH:   45 | LOSS:    0.2711 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:12,134 | train.py   | line 138: # BATCH:   50 | LOSS:    0.2871 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:12,204 | train.py   | line 138: # BATCH:   55 | LOSS:    0.1545 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:12,274 | train.py   | line 138: # BATCH:   60 | LOSS:    0.2956 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:12,344 | train.py   | line 138: # BATCH:   65 | LOSS:    0.2659 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:12,414 | train.py   | line 138: # BATCH:   70 | LOSS:    0.2228 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:12,484 | train.py   | line 138: # BATCH:   75 | LOSS:    0.2814 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:12,554 | train.py   | line 138: # BATCH:   80 | LOSS:    0.2320 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:12,624 | train.py   | line 138: # BATCH:   85 | LOSS:    0.1733 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:12,694 | train.py   | line 138: # BATCH:   90 | LOSS:    0.2801 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:12,764 | train.py   | line 138: # BATCH:   95 | LOSS:    0.1644 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:12,834 | train.py   | line 138: # BATCH:  100 | LOSS:    0.1899 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:12,910 | train.py   | line 138: # BATCH:  105 | LOSS:    0.2120 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:12,980 | train.py   | line 138: # BATCH:  110 | LOSS:    0.2596 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:13,050 | train.py   | line 138: # BATCH:  115 | LOSS:    0.2606 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:13,120 | train.py   | line 138: # BATCH:  120 | LOSS:    0.2453 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:13,189 | train.py   | line 138: # BATCH:  125 | LOSS:    0.2504 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:13,260 | train.py   | line 138: # BATCH:  130 | LOSS:    0.2784 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:13,330 | train.py   | line 138: # BATCH:  135 | LOSS:    0.1952 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:13,400 | train.py   | line 138: # BATCH:  140 | LOSS:    0.2053 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:13,457 | train.py   | line 138: # BATCH:  145 | LOSS:    0.3114 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:13,527 | train.py   | line 138: # BATCH:  150 | LOSS:    0.3338 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:13,597 | train.py   | line 138: # BATCH:  155 | LOSS:    0.2427 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:13,667 | train.py   | line 138: # BATCH:  160 | LOSS:    0.3253 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:13,737 | train.py   | line 138: # BATCH:  165 | LOSS:    0.1872 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:13,807 | train.py   | line 138: # BATCH:  170 | LOSS:    0.2033 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:13,877 | train.py   | line 138: # BATCH:  175 | LOSS:    0.1615 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:13,947 | train.py   | line 138: # BATCH:  180 | LOSS:    0.1567 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:14,017 | train.py   | line 138: # BATCH:  185 | LOSS:    0.2554 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:14,087 | train.py   | line 138: # BATCH:  190 | LOSS:    0.2114 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:14,157 | train.py   | line 138: # BATCH:  195 | LOSS:    0.2699 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:14,177 | train.py   | line 156: 
+2020-04-19 19:20:14,177 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:15,814 | train.py   | line 174: **** VALIDATION ACCURACY = 81.96 %
+2020-04-19 19:20:15,814 | train.py   | line 175: 
+2020-04-19 19:20:15,814 | train.py   | line 176: 
+2020-04-19 19:20:15,814 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:15,814 | train.py   | line 92 : #### EPOCH #    4
+2020-04-19 19:20:15,814 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:15,907 | train.py   | line 138: # BATCH:    5 | LOSS:    0.0889 | TRAIN ACC:  99.2188 %
+2020-04-19 19:20:15,977 | train.py   | line 138: # BATCH:   10 | LOSS:    0.3241 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:16,047 | train.py   | line 138: # BATCH:   15 | LOSS:    0.2278 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:16,117 | train.py   | line 138: # BATCH:   20 | LOSS:    0.1789 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:16,187 | train.py   | line 138: # BATCH:   25 | LOSS:    0.1472 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:16,257 | train.py   | line 138: # BATCH:   30 | LOSS:    0.1315 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:16,327 | train.py   | line 138: # BATCH:   35 | LOSS:    0.1258 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:16,397 | train.py   | line 138: # BATCH:   40 | LOSS:    0.1956 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:16,467 | train.py   | line 138: # BATCH:   45 | LOSS:    0.0931 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:16,537 | train.py   | line 138: # BATCH:   50 | LOSS:    0.1490 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:16,607 | train.py   | line 138: # BATCH:   55 | LOSS:    0.2486 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:16,678 | train.py   | line 138: # BATCH:   60 | LOSS:    0.1541 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:16,748 | train.py   | line 138: # BATCH:   65 | LOSS:    0.1679 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:16,818 | train.py   | line 138: # BATCH:   70 | LOSS:    0.1687 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:16,888 | train.py   | line 138: # BATCH:   75 | LOSS:    0.2005 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:16,958 | train.py   | line 138: # BATCH:   80 | LOSS:    0.2093 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:17,028 | train.py   | line 138: # BATCH:   85 | LOSS:    0.1454 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:17,098 | train.py   | line 138: # BATCH:   90 | LOSS:    0.1855 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:17,168 | train.py   | line 138: # BATCH:   95 | LOSS:    0.1705 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:17,238 | train.py   | line 138: # BATCH:  100 | LOSS:    0.1526 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:17,315 | train.py   | line 138: # BATCH:  105 | LOSS:    0.1249 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:17,388 | train.py   | line 138: # BATCH:  110 | LOSS:    0.1817 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:17,458 | train.py   | line 138: # BATCH:  115 | LOSS:    0.1849 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:17,528 | train.py   | line 138: # BATCH:  120 | LOSS:    0.1485 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:17,598 | train.py   | line 138: # BATCH:  125 | LOSS:    0.1781 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:17,668 | train.py   | line 138: # BATCH:  130 | LOSS:    0.1040 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:17,738 | train.py   | line 138: # BATCH:  135 | LOSS:    0.2547 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:17,810 | train.py   | line 138: # BATCH:  140 | LOSS:    0.1695 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:17,880 | train.py   | line 138: # BATCH:  145 | LOSS:    0.0926 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:17,950 | train.py   | line 138: # BATCH:  150 | LOSS:    0.1274 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:18,020 | train.py   | line 138: # BATCH:  155 | LOSS:    0.1057 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:18,090 | train.py   | line 138: # BATCH:  160 | LOSS:    0.2751 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:18,160 | train.py   | line 138: # BATCH:  165 | LOSS:    0.1516 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:18,236 | train.py   | line 138: # BATCH:  170 | LOSS:    0.1540 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:18,307 | train.py   | line 138: # BATCH:  175 | LOSS:    0.2284 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:18,378 | train.py   | line 138: # BATCH:  180 | LOSS:    0.1616 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:18,435 | train.py   | line 138: # BATCH:  185 | LOSS:    0.1544 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:18,505 | train.py   | line 138: # BATCH:  190 | LOSS:    0.3064 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:18,575 | train.py   | line 138: # BATCH:  195 | LOSS:    0.1782 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:18,595 | train.py   | line 156: 
+2020-04-19 19:20:18,595 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:20,231 | train.py   | line 174: **** VALIDATION ACCURACY = 81.69 %
+2020-04-19 19:20:20,231 | train.py   | line 175: 
+2020-04-19 19:20:20,231 | train.py   | line 176: 
+2020-04-19 19:20:20,231 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:20,231 | train.py   | line 92 : #### EPOCH #    5
+2020-04-19 19:20:20,231 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:20,325 | train.py   | line 138: # BATCH:    5 | LOSS:    0.0484 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:20,395 | train.py   | line 138: # BATCH:   10 | LOSS:    0.0578 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:20,465 | train.py   | line 138: # BATCH:   15 | LOSS:    0.0537 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:20,535 | train.py   | line 138: # BATCH:   20 | LOSS:    0.1449 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:20,605 | train.py   | line 138: # BATCH:   25 | LOSS:    0.1584 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:20,675 | train.py   | line 138: # BATCH:   30 | LOSS:    0.0407 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:20,745 | train.py   | line 138: # BATCH:   35 | LOSS:    0.0391 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:20,815 | train.py   | line 138: # BATCH:   40 | LOSS:    0.0806 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:20,885 | train.py   | line 138: # BATCH:   45 | LOSS:    0.0880 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:20,955 | train.py   | line 138: # BATCH:   50 | LOSS:    0.0703 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:21,025 | train.py   | line 138: # BATCH:   55 | LOSS:    0.1100 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:21,095 | train.py   | line 138: # BATCH:   60 | LOSS:    0.1007 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:21,165 | train.py   | line 138: # BATCH:   65 | LOSS:    0.1001 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:21,235 | train.py   | line 138: # BATCH:   70 | LOSS:    0.0489 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:21,305 | train.py   | line 138: # BATCH:   75 | LOSS:    0.0561 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:21,375 | train.py   | line 138: # BATCH:   80 | LOSS:    0.0737 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:21,445 | train.py   | line 138: # BATCH:   85 | LOSS:    0.0916 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:21,515 | train.py   | line 138: # BATCH:   90 | LOSS:    0.1610 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:21,585 | train.py   | line 138: # BATCH:   95 | LOSS:    0.0941 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:21,655 | train.py   | line 138: # BATCH:  100 | LOSS:    0.0659 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:21,789 | train.py   | line 138: # BATCH:  110 | LOSS:    0.0890 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:21,859 | train.py   | line 138: # BATCH:  115 | LOSS:    0.0997 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:21,929 | train.py   | line 138: # BATCH:  120 | LOSS:    0.0628 | TRAIN ACC:  99.2188 %
+2020-04-19 19:20:21,998 | train.py   | line 138: # BATCH:  125 | LOSS:    0.2383 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:22,068 | train.py   | line 138: # BATCH:  130 | LOSS:    0.1837 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:22,137 | train.py   | line 138: # BATCH:  135 | LOSS:    0.1212 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:22,207 | train.py   | line 138: # BATCH:  140 | LOSS:    0.1544 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:22,277 | train.py   | line 138: # BATCH:  145 | LOSS:    0.1128 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:22,347 | train.py   | line 138: # BATCH:  150 | LOSS:    0.0819 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:22,417 | train.py   | line 138: # BATCH:  155 | LOSS:    0.0813 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:22,487 | train.py   | line 138: # BATCH:  160 | LOSS:    0.1625 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:22,557 | train.py   | line 138: # BATCH:  165 | LOSS:    0.1531 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:22,627 | train.py   | line 138: # BATCH:  170 | LOSS:    0.0896 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:22,697 | train.py   | line 138: # BATCH:  175 | LOSS:    0.1576 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:22,767 | train.py   | line 138: # BATCH:  180 | LOSS:    0.1933 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:22,837 | train.py   | line 138: # BATCH:  185 | LOSS:    0.1007 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:22,907 | train.py   | line 138: # BATCH:  190 | LOSS:    0.1454 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:22,976 | train.py   | line 138: # BATCH:  195 | LOSS:    0.0540 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:22,997 | train.py   | line 156: 
+2020-04-19 19:20:22,997 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:24,630 | train.py   | line 174: **** VALIDATION ACCURACY = 81.81 %
+2020-04-19 19:20:24,630 | train.py   | line 175: 
+2020-04-19 19:20:24,630 | train.py   | line 176: 
+2020-04-19 19:20:24,852 | train.py   | line 69 : ----------------------------------------------------------------
+2020-04-19 19:20:24,853 | train.py   | line 70 : ++++++++                    PARAMS                      ++++++++
+2020-04-19 19:20:24,853 | train.py   | line 71 : UNIT           : LSTM
+2020-04-19 19:20:24,853 | train.py   | line 72 : # LAYERS       : 1
+2020-04-19 19:20:24,853 | train.py   | line 73 : EMBEDDING SIZE :   32
+2020-04-19 19:20:24,853 | train.py   | line 74 : SEQUENCE LENGTH:  250
+2020-04-19 19:20:24,853 | train.py   | line 75 : ----------------------------------------------------------------
+2020-04-19 19:20:24,872 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:24,872 | train.py   | line 92 : #### EPOCH #    1
+2020-04-19 19:20:24,872 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:24,978 | train.py   | line 138: # BATCH:    5 | LOSS:    0.6945 | TRAIN ACC:  50.0000 %
+2020-04-19 19:20:25,056 | train.py   | line 138: # BATCH:   10 | LOSS:    0.6950 | TRAIN ACC:  45.3125 %
+2020-04-19 19:20:25,135 | train.py   | line 138: # BATCH:   15 | LOSS:    0.6940 | TRAIN ACC:  50.0000 %
+2020-04-19 19:20:25,213 | train.py   | line 138: # BATCH:   20 | LOSS:    0.6933 | TRAIN ACC:  49.2188 %
+2020-04-19 19:20:25,292 | train.py   | line 138: # BATCH:   25 | LOSS:    0.6957 | TRAIN ACC:  44.5312 %
+2020-04-19 19:20:25,370 | train.py   | line 138: # BATCH:   30 | LOSS:    0.6891 | TRAIN ACC:  60.9375 %
+2020-04-19 19:20:25,449 | train.py   | line 138: # BATCH:   35 | LOSS:    0.6904 | TRAIN ACC:  55.4688 %
+2020-04-19 19:20:25,527 | train.py   | line 138: # BATCH:   40 | LOSS:    0.6919 | TRAIN ACC:  50.7812 %
+2020-04-19 19:20:25,605 | train.py   | line 138: # BATCH:   45 | LOSS:    0.6879 | TRAIN ACC:  58.5938 %
+2020-04-19 19:20:25,684 | train.py   | line 138: # BATCH:   50 | LOSS:    0.6850 | TRAIN ACC:  57.8125 %
+2020-04-19 19:20:25,762 | train.py   | line 138: # BATCH:   55 | LOSS:    0.6857 | TRAIN ACC:  58.5938 %
+2020-04-19 19:20:25,841 | train.py   | line 138: # BATCH:   60 | LOSS:    0.6800 | TRAIN ACC:  64.0625 %
+2020-04-19 19:20:25,919 | train.py   | line 138: # BATCH:   65 | LOSS:    0.6754 | TRAIN ACC:  64.0625 %
+2020-04-19 19:20:25,997 | train.py   | line 138: # BATCH:   70 | LOSS:    0.6737 | TRAIN ACC:  62.5000 %
+2020-04-19 19:20:26,075 | train.py   | line 138: # BATCH:   75 | LOSS:    0.6564 | TRAIN ACC:  67.9688 %
+2020-04-19 19:20:26,154 | train.py   | line 138: # BATCH:   80 | LOSS:    0.6106 | TRAIN ACC:  67.9688 %
+2020-04-19 19:20:26,232 | train.py   | line 138: # BATCH:   85 | LOSS:    0.5962 | TRAIN ACC:  71.0938 %
+2020-04-19 19:20:26,311 | train.py   | line 138: # BATCH:   90 | LOSS:    0.5788 | TRAIN ACC:  68.7500 %
+2020-04-19 19:20:26,389 | train.py   | line 138: # BATCH:   95 | LOSS:    0.5892 | TRAIN ACC:  69.5312 %
+2020-04-19 19:20:26,468 | train.py   | line 138: # BATCH:  100 | LOSS:    0.5750 | TRAIN ACC:  72.6562 %
+2020-04-19 19:20:26,553 | train.py   | line 138: # BATCH:  105 | LOSS:    0.4907 | TRAIN ACC:  75.7812 %
+2020-04-19 19:20:26,631 | train.py   | line 138: # BATCH:  110 | LOSS:    0.5159 | TRAIN ACC:  71.0938 %
+2020-04-19 19:20:26,709 | train.py   | line 138: # BATCH:  115 | LOSS:    0.5865 | TRAIN ACC:  70.3125 %
+2020-04-19 19:20:26,787 | train.py   | line 138: # BATCH:  120 | LOSS:    0.5491 | TRAIN ACC:  71.0938 %
+2020-04-19 19:20:26,866 | train.py   | line 138: # BATCH:  125 | LOSS:    0.4983 | TRAIN ACC:  72.6562 %
+2020-04-19 19:20:26,944 | train.py   | line 138: # BATCH:  130 | LOSS:    0.5086 | TRAIN ACC:  73.4375 %
+2020-04-19 19:20:27,022 | train.py   | line 138: # BATCH:  135 | LOSS:    0.5089 | TRAIN ACC:  74.2188 %
+2020-04-19 19:20:27,101 | train.py   | line 138: # BATCH:  140 | LOSS:    0.5287 | TRAIN ACC:  74.2188 %
+2020-04-19 19:20:27,179 | train.py   | line 138: # BATCH:  145 | LOSS:    0.5497 | TRAIN ACC:  67.1875 %
+2020-04-19 19:20:27,257 | train.py   | line 138: # BATCH:  150 | LOSS:    0.4916 | TRAIN ACC:  78.9062 %
+2020-04-19 19:20:27,335 | train.py   | line 138: # BATCH:  155 | LOSS:    0.3905 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:27,414 | train.py   | line 138: # BATCH:  160 | LOSS:    0.4408 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:27,493 | train.py   | line 138: # BATCH:  165 | LOSS:    0.4669 | TRAIN ACC:  75.7812 %
+2020-04-19 19:20:27,571 | train.py   | line 138: # BATCH:  170 | LOSS:    0.3387 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:27,635 | train.py   | line 138: # BATCH:  175 | LOSS:    0.3992 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:27,714 | train.py   | line 138: # BATCH:  180 | LOSS:    0.3567 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:27,792 | train.py   | line 138: # BATCH:  185 | LOSS:    0.3765 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:27,870 | train.py   | line 138: # BATCH:  190 | LOSS:    0.4285 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:27,948 | train.py   | line 138: # BATCH:  195 | LOSS:    0.4536 | TRAIN ACC:  81.2500 %
+2020-04-19 19:20:27,972 | train.py   | line 156: 
+2020-04-19 19:20:27,972 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:29,606 | train.py   | line 174: **** VALIDATION ACCURACY = 80.18 %
+2020-04-19 19:20:29,606 | train.py   | line 175: 
+2020-04-19 19:20:29,606 | train.py   | line 176: 
+2020-04-19 19:20:29,606 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:29,606 | train.py   | line 92 : #### EPOCH #    2
+2020-04-19 19:20:29,606 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:29,706 | train.py   | line 138: # BATCH:    5 | LOSS:    0.2901 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:29,784 | train.py   | line 138: # BATCH:   10 | LOSS:    0.2219 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:29,862 | train.py   | line 138: # BATCH:   15 | LOSS:    0.3420 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:29,942 | train.py   | line 138: # BATCH:   20 | LOSS:    0.3986 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:30,020 | train.py   | line 138: # BATCH:   25 | LOSS:    0.4592 | TRAIN ACC:  76.5625 %
+2020-04-19 19:20:30,098 | train.py   | line 138: # BATCH:   30 | LOSS:    0.4222 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:30,176 | train.py   | line 138: # BATCH:   35 | LOSS:    0.3352 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:30,256 | train.py   | line 138: # BATCH:   40 | LOSS:    0.3506 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:30,334 | train.py   | line 138: # BATCH:   45 | LOSS:    0.2510 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:30,412 | train.py   | line 138: # BATCH:   50 | LOSS:    0.3179 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:30,490 | train.py   | line 138: # BATCH:   55 | LOSS:    0.2820 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:30,568 | train.py   | line 138: # BATCH:   60 | LOSS:    0.2756 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:30,646 | train.py   | line 138: # BATCH:   65 | LOSS:    0.2715 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:30,724 | train.py   | line 138: # BATCH:   70 | LOSS:    0.2183 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:30,802 | train.py   | line 138: # BATCH:   75 | LOSS:    0.2906 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:30,879 | train.py   | line 138: # BATCH:   80 | LOSS:    0.2751 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:30,957 | train.py   | line 138: # BATCH:   85 | LOSS:    0.3412 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:31,037 | train.py   | line 138: # BATCH:   90 | LOSS:    0.3208 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:31,115 | train.py   | line 138: # BATCH:   95 | LOSS:    0.3479 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:31,193 | train.py   | line 138: # BATCH:  100 | LOSS:    0.3700 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:31,278 | train.py   | line 138: # BATCH:  105 | LOSS:    0.2615 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:31,344 | train.py   | line 138: # BATCH:  110 | LOSS:    0.2934 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:31,425 | train.py   | line 138: # BATCH:  115 | LOSS:    0.4374 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:31,506 | train.py   | line 138: # BATCH:  120 | LOSS:    0.2730 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:31,586 | train.py   | line 138: # BATCH:  125 | LOSS:    0.2949 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:31,666 | train.py   | line 138: # BATCH:  130 | LOSS:    0.4140 | TRAIN ACC:  82.8125 %
+2020-04-19 19:20:31,746 | train.py   | line 138: # BATCH:  135 | LOSS:    0.4295 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:31,830 | train.py   | line 138: # BATCH:  140 | LOSS:    0.3208 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:31,913 | train.py   | line 138: # BATCH:  145 | LOSS:    0.1907 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:31,995 | train.py   | line 138: # BATCH:  150 | LOSS:    0.2884 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:32,077 | train.py   | line 138: # BATCH:  155 | LOSS:    0.3152 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:32,158 | train.py   | line 138: # BATCH:  160 | LOSS:    0.3320 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:32,239 | train.py   | line 138: # BATCH:  165 | LOSS:    0.2446 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:32,319 | train.py   | line 138: # BATCH:  170 | LOSS:    0.1588 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:32,400 | train.py   | line 138: # BATCH:  175 | LOSS:    0.3935 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:32,482 | train.py   | line 138: # BATCH:  180 | LOSS:    0.2493 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:32,563 | train.py   | line 138: # BATCH:  185 | LOSS:    0.3279 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:32,643 | train.py   | line 138: # BATCH:  190 | LOSS:    0.3479 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:32,724 | train.py   | line 138: # BATCH:  195 | LOSS:    0.1908 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:32,750 | train.py   | line 156: 
+2020-04-19 19:20:32,750 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:34,479 | train.py   | line 174: **** VALIDATION ACCURACY = 83.10 %
+2020-04-19 19:20:34,479 | train.py   | line 175: 
+2020-04-19 19:20:34,479 | train.py   | line 176: 
+2020-04-19 19:20:34,479 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:34,479 | train.py   | line 92 : #### EPOCH #    3
+2020-04-19 19:20:34,479 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:34,580 | train.py   | line 138: # BATCH:    5 | LOSS:    0.1822 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:34,662 | train.py   | line 138: # BATCH:   10 | LOSS:    0.2320 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:34,741 | train.py   | line 138: # BATCH:   15 | LOSS:    0.2256 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:34,820 | train.py   | line 138: # BATCH:   20 | LOSS:    0.1436 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:34,900 | train.py   | line 138: # BATCH:   25 | LOSS:    0.1995 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:34,981 | train.py   | line 138: # BATCH:   30 | LOSS:    0.1241 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:35,061 | train.py   | line 138: # BATCH:   35 | LOSS:    0.1712 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:35,140 | train.py   | line 138: # BATCH:   40 | LOSS:    0.0959 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:35,219 | train.py   | line 138: # BATCH:   45 | LOSS:    0.2520 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:35,298 | train.py   | line 138: # BATCH:   50 | LOSS:    0.2709 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:35,379 | train.py   | line 138: # BATCH:   55 | LOSS:    0.2353 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:35,459 | train.py   | line 138: # BATCH:   60 | LOSS:    0.1766 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:35,538 | train.py   | line 138: # BATCH:   65 | LOSS:    0.1797 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:35,618 | train.py   | line 138: # BATCH:   70 | LOSS:    0.2897 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:35,697 | train.py   | line 138: # BATCH:   75 | LOSS:    0.1914 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:35,777 | train.py   | line 138: # BATCH:   80 | LOSS:    0.1923 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:35,856 | train.py   | line 138: # BATCH:   85 | LOSS:    0.2403 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:35,937 | train.py   | line 138: # BATCH:   90 | LOSS:    0.1896 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:36,016 | train.py   | line 138: # BATCH:   95 | LOSS:    0.2548 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:36,095 | train.py   | line 138: # BATCH:  100 | LOSS:    0.1669 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:36,181 | train.py   | line 138: # BATCH:  105 | LOSS:    0.1891 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:36,261 | train.py   | line 138: # BATCH:  110 | LOSS:    0.1588 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:36,341 | train.py   | line 138: # BATCH:  115 | LOSS:    0.1775 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:36,421 | train.py   | line 138: # BATCH:  120 | LOSS:    0.1193 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:36,500 | train.py   | line 138: # BATCH:  125 | LOSS:    0.1868 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:36,579 | train.py   | line 138: # BATCH:  130 | LOSS:    0.1650 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:36,659 | train.py   | line 138: # BATCH:  135 | LOSS:    0.1734 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:36,739 | train.py   | line 138: # BATCH:  140 | LOSS:    0.1105 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:36,818 | train.py   | line 138: # BATCH:  145 | LOSS:    0.1041 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:36,897 | train.py   | line 138: # BATCH:  150 | LOSS:    0.1783 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:36,962 | train.py   | line 138: # BATCH:  155 | LOSS:    0.2465 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:37,042 | train.py   | line 138: # BATCH:  160 | LOSS:    0.1938 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:37,122 | train.py   | line 138: # BATCH:  165 | LOSS:    0.1747 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:37,201 | train.py   | line 138: # BATCH:  170 | LOSS:    0.1849 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:37,281 | train.py   | line 138: # BATCH:  175 | LOSS:    0.2351 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:37,364 | train.py   | line 138: # BATCH:  180 | LOSS:    0.2139 | TRAIN ACC:  91.4062 %
+2020-04-19 19:20:37,447 | train.py   | line 138: # BATCH:  185 | LOSS:    0.1712 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:37,529 | train.py   | line 138: # BATCH:  190 | LOSS:    0.1852 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:37,611 | train.py   | line 138: # BATCH:  195 | LOSS:    0.1736 | TRAIN ACC:  90.6250 %
+2020-04-19 19:20:37,639 | train.py   | line 156: 
+2020-04-19 19:20:37,639 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:39,368 | train.py   | line 174: **** VALIDATION ACCURACY = 82.74 %
+2020-04-19 19:20:39,368 | train.py   | line 175: 
+2020-04-19 19:20:39,368 | train.py   | line 176: 
+2020-04-19 19:20:39,368 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:39,368 | train.py   | line 92 : #### EPOCH #    4
+2020-04-19 19:20:39,368 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:39,472 | train.py   | line 138: # BATCH:    5 | LOSS:    0.1519 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:39,551 | train.py   | line 138: # BATCH:   10 | LOSS:    0.0804 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:39,631 | train.py   | line 138: # BATCH:   15 | LOSS:    0.1321 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:39,710 | train.py   | line 138: # BATCH:   20 | LOSS:    0.0947 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:39,790 | train.py   | line 138: # BATCH:   25 | LOSS:    0.0525 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:39,869 | train.py   | line 138: # BATCH:   30 | LOSS:    0.0814 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:39,949 | train.py   | line 138: # BATCH:   35 | LOSS:    0.1470 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:40,028 | train.py   | line 138: # BATCH:   40 | LOSS:    0.0689 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:40,107 | train.py   | line 138: # BATCH:   45 | LOSS:    0.1479 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:40,187 | train.py   | line 138: # BATCH:   50 | LOSS:    0.0667 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:40,266 | train.py   | line 138: # BATCH:   55 | LOSS:    0.0997 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:40,345 | train.py   | line 138: # BATCH:   60 | LOSS:    0.0676 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:40,425 | train.py   | line 138: # BATCH:   65 | LOSS:    0.1760 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:40,504 | train.py   | line 138: # BATCH:   70 | LOSS:    0.0831 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:40,583 | train.py   | line 138: # BATCH:   75 | LOSS:    0.1089 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:40,663 | train.py   | line 138: # BATCH:   80 | LOSS:    0.1065 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:40,742 | train.py   | line 138: # BATCH:   85 | LOSS:    0.1464 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:40,821 | train.py   | line 138: # BATCH:   90 | LOSS:    0.0847 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:40,900 | train.py   | line 138: # BATCH:   95 | LOSS:    0.0974 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:40,979 | train.py   | line 138: # BATCH:  100 | LOSS:    0.1118 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:41,065 | train.py   | line 138: # BATCH:  105 | LOSS:    0.1945 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:41,144 | train.py   | line 138: # BATCH:  110 | LOSS:    0.1326 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:41,223 | train.py   | line 138: # BATCH:  115 | LOSS:    0.1037 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:41,302 | train.py   | line 138: # BATCH:  120 | LOSS:    0.1044 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:41,381 | train.py   | line 138: # BATCH:  125 | LOSS:    0.1271 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:41,460 | train.py   | line 138: # BATCH:  130 | LOSS:    0.1602 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:41,539 | train.py   | line 138: # BATCH:  135 | LOSS:    0.0811 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:41,618 | train.py   | line 138: # BATCH:  140 | LOSS:    0.2757 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:41,696 | train.py   | line 138: # BATCH:  145 | LOSS:    0.1226 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:41,775 | train.py   | line 138: # BATCH:  150 | LOSS:    0.0722 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:41,854 | train.py   | line 138: # BATCH:  155 | LOSS:    0.1130 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:41,932 | train.py   | line 138: # BATCH:  160 | LOSS:    0.0398 | TRAIN ACC: 100.0000 %
+2020-04-19 19:20:42,076 | train.py   | line 138: # BATCH:  170 | LOSS:    0.1488 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:42,154 | train.py   | line 138: # BATCH:  175 | LOSS:    0.0743 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:42,233 | train.py   | line 138: # BATCH:  180 | LOSS:    0.0706 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:42,312 | train.py   | line 138: # BATCH:  185 | LOSS:    0.1049 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:42,391 | train.py   | line 138: # BATCH:  190 | LOSS:    0.1298 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:42,470 | train.py   | line 138: # BATCH:  195 | LOSS:    0.1296 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:42,493 | train.py   | line 156: 
+2020-04-19 19:20:42,493 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:44,127 | train.py   | line 174: **** VALIDATION ACCURACY = 82.25 %
+2020-04-19 19:20:44,128 | train.py   | line 175: 
+2020-04-19 19:20:44,128 | train.py   | line 176: 
+2020-04-19 19:20:44,128 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:44,128 | train.py   | line 92 : #### EPOCH #    5
+2020-04-19 19:20:44,128 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:44,227 | train.py   | line 138: # BATCH:    5 | LOSS:    0.0622 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:44,305 | train.py   | line 138: # BATCH:   10 | LOSS:    0.0311 | TRAIN ACC:  99.2188 %
+2020-04-19 19:20:44,382 | train.py   | line 138: # BATCH:   15 | LOSS:    0.0998 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:44,460 | train.py   | line 138: # BATCH:   20 | LOSS:    0.0860 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:44,538 | train.py   | line 138: # BATCH:   25 | LOSS:    0.0406 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:44,615 | train.py   | line 138: # BATCH:   30 | LOSS:    0.0600 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:44,692 | train.py   | line 138: # BATCH:   35 | LOSS:    0.0208 | TRAIN ACC:  99.2188 %
+2020-04-19 19:20:44,770 | train.py   | line 138: # BATCH:   40 | LOSS:    0.0868 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:44,847 | train.py   | line 138: # BATCH:   45 | LOSS:    0.0972 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:44,926 | train.py   | line 138: # BATCH:   50 | LOSS:    0.0618 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:45,003 | train.py   | line 138: # BATCH:   55 | LOSS:    0.0151 | TRAIN ACC: 100.0000 %
+2020-04-19 19:20:45,081 | train.py   | line 138: # BATCH:   60 | LOSS:    0.1088 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:45,159 | train.py   | line 138: # BATCH:   65 | LOSS:    0.0562 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:45,237 | train.py   | line 138: # BATCH:   70 | LOSS:    0.1494 | TRAIN ACC:  94.5312 %
+2020-04-19 19:20:45,314 | train.py   | line 138: # BATCH:   75 | LOSS:    0.1601 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:45,392 | train.py   | line 138: # BATCH:   80 | LOSS:    0.0334 | TRAIN ACC:  99.2188 %
+2020-04-19 19:20:45,470 | train.py   | line 138: # BATCH:   85 | LOSS:    0.0483 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:45,548 | train.py   | line 138: # BATCH:   90 | LOSS:    0.0639 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:45,625 | train.py   | line 138: # BATCH:   95 | LOSS:    0.0573 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:45,703 | train.py   | line 138: # BATCH:  100 | LOSS:    0.0696 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:45,787 | train.py   | line 138: # BATCH:  105 | LOSS:    0.0658 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:45,851 | train.py   | line 138: # BATCH:  110 | LOSS:    0.0277 | TRAIN ACC:  99.2188 %
+2020-04-19 19:20:45,929 | train.py   | line 138: # BATCH:  115 | LOSS:    0.0517 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:46,007 | train.py   | line 138: # BATCH:  120 | LOSS:    0.0472 | TRAIN ACC:  99.2188 %
+2020-04-19 19:20:46,084 | train.py   | line 138: # BATCH:  125 | LOSS:    0.0434 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:46,162 | train.py   | line 138: # BATCH:  130 | LOSS:    0.0460 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:46,239 | train.py   | line 138: # BATCH:  135 | LOSS:    0.0743 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:46,317 | train.py   | line 138: # BATCH:  140 | LOSS:    0.0480 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:46,395 | train.py   | line 138: # BATCH:  145 | LOSS:    0.0786 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:46,473 | train.py   | line 138: # BATCH:  150 | LOSS:    0.0646 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:46,550 | train.py   | line 138: # BATCH:  155 | LOSS:    0.0356 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:46,628 | train.py   | line 138: # BATCH:  160 | LOSS:    0.0556 | TRAIN ACC:  98.4375 %
+2020-04-19 19:20:46,705 | train.py   | line 138: # BATCH:  165 | LOSS:    0.0976 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:46,782 | train.py   | line 138: # BATCH:  170 | LOSS:    0.0645 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:46,860 | train.py   | line 138: # BATCH:  175 | LOSS:    0.1233 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:46,938 | train.py   | line 138: # BATCH:  180 | LOSS:    0.1073 | TRAIN ACC:  96.0938 %
+2020-04-19 19:20:47,016 | train.py   | line 138: # BATCH:  185 | LOSS:    0.0772 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:47,093 | train.py   | line 138: # BATCH:  190 | LOSS:    0.0753 | TRAIN ACC:  97.6562 %
+2020-04-19 19:20:47,171 | train.py   | line 138: # BATCH:  195 | LOSS:    0.0862 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:47,194 | train.py   | line 156: 
+2020-04-19 19:20:47,195 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:48,826 | train.py   | line 174: **** VALIDATION ACCURACY = 82.64 %
+2020-04-19 19:20:48,826 | train.py   | line 175: 
+2020-04-19 19:20:48,826 | train.py   | line 176: 
+2020-04-19 19:20:48,942 | train.py   | line 69 : ----------------------------------------------------------------
+2020-04-19 19:20:48,942 | train.py   | line 70 : ++++++++                    PARAMS                      ++++++++
+2020-04-19 19:20:48,942 | train.py   | line 71 : UNIT           : LSTM
+2020-04-19 19:20:48,942 | train.py   | line 72 : # LAYERS       : 1
+2020-04-19 19:20:48,942 | train.py   | line 73 : EMBEDDING SIZE :   64
+2020-04-19 19:20:48,942 | train.py   | line 74 : SEQUENCE LENGTH:  250
+2020-04-19 19:20:48,942 | train.py   | line 75 : ----------------------------------------------------------------
+2020-04-19 19:20:48,963 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:48,964 | train.py   | line 92 : #### EPOCH #    1
+2020-04-19 19:20:48,964 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:49,079 | train.py   | line 138: # BATCH:    5 | LOSS:    0.6950 | TRAIN ACC:  46.0938 %
+2020-04-19 19:20:49,169 | train.py   | line 138: # BATCH:   10 | LOSS:    0.7010 | TRAIN ACC:  46.0938 %
+2020-04-19 19:20:49,262 | train.py   | line 138: # BATCH:   15 | LOSS:    0.6913 | TRAIN ACC:  48.4375 %
+2020-04-19 19:20:49,353 | train.py   | line 138: # BATCH:   20 | LOSS:    0.6897 | TRAIN ACC:  53.9062 %
+2020-04-19 19:20:49,444 | train.py   | line 138: # BATCH:   25 | LOSS:    0.6922 | TRAIN ACC:  53.1250 %
+2020-04-19 19:20:49,535 | train.py   | line 138: # BATCH:   30 | LOSS:    0.6878 | TRAIN ACC:  54.6875 %
+2020-04-19 19:20:49,625 | train.py   | line 138: # BATCH:   35 | LOSS:    0.6878 | TRAIN ACC:  55.4688 %
+2020-04-19 19:20:49,715 | train.py   | line 138: # BATCH:   40 | LOSS:    0.6888 | TRAIN ACC:  53.9062 %
+2020-04-19 19:20:49,806 | train.py   | line 138: # BATCH:   45 | LOSS:    0.6853 | TRAIN ACC:  61.7188 %
+2020-04-19 19:20:49,897 | train.py   | line 138: # BATCH:   50 | LOSS:    0.6709 | TRAIN ACC:  58.5938 %
+2020-04-19 19:20:49,989 | train.py   | line 138: # BATCH:   55 | LOSS:    0.6609 | TRAIN ACC:  64.0625 %
+2020-04-19 19:20:50,079 | train.py   | line 138: # BATCH:   60 | LOSS:    0.6518 | TRAIN ACC:  65.6250 %
+2020-04-19 19:20:50,171 | train.py   | line 138: # BATCH:   65 | LOSS:    0.6435 | TRAIN ACC:  63.2812 %
+2020-04-19 19:20:50,262 | train.py   | line 138: # BATCH:   70 | LOSS:    0.6390 | TRAIN ACC:  69.5312 %
+2020-04-19 19:20:50,352 | train.py   | line 138: # BATCH:   75 | LOSS:    0.6128 | TRAIN ACC:  67.9688 %
+2020-04-19 19:20:50,443 | train.py   | line 138: # BATCH:   80 | LOSS:    0.6673 | TRAIN ACC:  63.2812 %
+2020-04-19 19:20:50,535 | train.py   | line 138: # BATCH:   85 | LOSS:    0.5987 | TRAIN ACC:  70.3125 %
+2020-04-19 19:20:50,626 | train.py   | line 138: # BATCH:   90 | LOSS:    0.5232 | TRAIN ACC:  72.6562 %
+2020-04-19 19:20:50,716 | train.py   | line 138: # BATCH:   95 | LOSS:    0.4822 | TRAIN ACC:  78.9062 %
+2020-04-19 19:20:50,807 | train.py   | line 138: # BATCH:  100 | LOSS:    0.5452 | TRAIN ACC:  70.3125 %
+2020-04-19 19:20:50,904 | train.py   | line 138: # BATCH:  105 | LOSS:    0.5086 | TRAIN ACC:  74.2188 %
+2020-04-19 19:20:50,994 | train.py   | line 138: # BATCH:  110 | LOSS:    0.5936 | TRAIN ACC:  71.0938 %
+2020-04-19 19:20:51,084 | train.py   | line 138: # BATCH:  115 | LOSS:    0.6061 | TRAIN ACC:  71.0938 %
+2020-04-19 19:20:51,174 | train.py   | line 138: # BATCH:  120 | LOSS:    0.5077 | TRAIN ACC:  78.1250 %
+2020-04-19 19:20:51,264 | train.py   | line 138: # BATCH:  125 | LOSS:    0.3869 | TRAIN ACC:  83.5938 %
+2020-04-19 19:20:51,354 | train.py   | line 138: # BATCH:  130 | LOSS:    0.4266 | TRAIN ACC:  80.4688 %
+2020-04-19 19:20:51,445 | train.py   | line 138: # BATCH:  135 | LOSS:    0.4874 | TRAIN ACC:  77.3438 %
+2020-04-19 19:20:51,537 | train.py   | line 138: # BATCH:  140 | LOSS:    0.4757 | TRAIN ACC:  79.6875 %
+2020-04-19 19:20:51,628 | train.py   | line 138: # BATCH:  145 | LOSS:    0.4056 | TRAIN ACC:  82.8125 %
+2020-04-19 19:20:51,719 | train.py   | line 138: # BATCH:  150 | LOSS:    0.4511 | TRAIN ACC:  80.4688 %
+2020-04-19 19:20:51,809 | train.py   | line 138: # BATCH:  155 | LOSS:    0.4606 | TRAIN ACC:  78.9062 %
+2020-04-19 19:20:51,900 | train.py   | line 138: # BATCH:  160 | LOSS:    0.4094 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:51,990 | train.py   | line 138: # BATCH:  165 | LOSS:    0.3880 | TRAIN ACC:  82.0312 %
+2020-04-19 19:20:52,081 | train.py   | line 138: # BATCH:  170 | LOSS:    0.4240 | TRAIN ACC:  78.1250 %
+2020-04-19 19:20:52,170 | train.py   | line 138: # BATCH:  175 | LOSS:    0.4405 | TRAIN ACC:  79.6875 %
+2020-04-19 19:20:52,261 | train.py   | line 138: # BATCH:  180 | LOSS:    0.4747 | TRAIN ACC:  79.6875 %
+2020-04-19 19:20:52,335 | train.py   | line 138: # BATCH:  185 | LOSS:    0.2980 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:52,425 | train.py   | line 138: # BATCH:  190 | LOSS:    0.3424 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:52,515 | train.py   | line 138: # BATCH:  195 | LOSS:    0.3934 | TRAIN ACC:  82.8125 %
+2020-04-19 19:20:52,542 | train.py   | line 156: 
+2020-04-19 19:20:52,542 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:54,272 | train.py   | line 174: **** VALIDATION ACCURACY = 81.86 %
+2020-04-19 19:20:54,272 | train.py   | line 175: 
+2020-04-19 19:20:54,272 | train.py   | line 176: 
+2020-04-19 19:20:54,272 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:54,272 | train.py   | line 92 : #### EPOCH #    2
+2020-04-19 19:20:54,272 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:54,381 | train.py   | line 138: # BATCH:    5 | LOSS:    0.2943 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:54,470 | train.py   | line 138: # BATCH:   10 | LOSS:    0.3474 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:54,558 | train.py   | line 138: # BATCH:   15 | LOSS:    0.3926 | TRAIN ACC:  81.2500 %
+2020-04-19 19:20:54,647 | train.py   | line 138: # BATCH:   20 | LOSS:    0.3732 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:54,736 | train.py   | line 138: # BATCH:   25 | LOSS:    0.2318 | TRAIN ACC:  93.7500 %
+2020-04-19 19:20:54,825 | train.py   | line 138: # BATCH:   30 | LOSS:    0.3273 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:54,916 | train.py   | line 138: # BATCH:   35 | LOSS:    0.2559 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:55,006 | train.py   | line 138: # BATCH:   40 | LOSS:    0.2954 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:55,095 | train.py   | line 138: # BATCH:   45 | LOSS:    0.3365 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:55,188 | train.py   | line 138: # BATCH:   50 | LOSS:    0.2858 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:55,281 | train.py   | line 138: # BATCH:   55 | LOSS:    0.3965 | TRAIN ACC:  81.2500 %
+2020-04-19 19:20:55,373 | train.py   | line 138: # BATCH:   60 | LOSS:    0.2947 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:55,465 | train.py   | line 138: # BATCH:   65 | LOSS:    0.2255 | TRAIN ACC:  92.9688 %
+2020-04-19 19:20:55,556 | train.py   | line 138: # BATCH:   70 | LOSS:    0.2966 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:55,649 | train.py   | line 138: # BATCH:   75 | LOSS:    0.3547 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:55,744 | train.py   | line 138: # BATCH:   80 | LOSS:    0.2929 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:55,837 | train.py   | line 138: # BATCH:   85 | LOSS:    0.2918 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:55,930 | train.py   | line 138: # BATCH:   90 | LOSS:    0.2983 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:56,021 | train.py   | line 138: # BATCH:   95 | LOSS:    0.3537 | TRAIN ACC:  82.8125 %
+2020-04-19 19:20:56,113 | train.py   | line 138: # BATCH:  100 | LOSS:    0.2727 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:56,213 | train.py   | line 138: # BATCH:  105 | LOSS:    0.2651 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:56,288 | train.py   | line 138: # BATCH:  110 | LOSS:    0.2539 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:56,379 | train.py   | line 138: # BATCH:  115 | LOSS:    0.3971 | TRAIN ACC:  81.2500 %
+2020-04-19 19:20:56,469 | train.py   | line 138: # BATCH:  120 | LOSS:    0.2662 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:56,558 | train.py   | line 138: # BATCH:  125 | LOSS:    0.3682 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:56,649 | train.py   | line 138: # BATCH:  130 | LOSS:    0.2461 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:56,740 | train.py   | line 138: # BATCH:  135 | LOSS:    0.3475 | TRAIN ACC:  84.3750 %
+2020-04-19 19:20:56,833 | train.py   | line 138: # BATCH:  140 | LOSS:    0.2997 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:56,924 | train.py   | line 138: # BATCH:  145 | LOSS:    0.2778 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:57,015 | train.py   | line 138: # BATCH:  150 | LOSS:    0.2669 | TRAIN ACC:  88.2812 %
+2020-04-19 19:20:57,106 | train.py   | line 138: # BATCH:  155 | LOSS:    0.3529 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:57,197 | train.py   | line 138: # BATCH:  160 | LOSS:    0.4007 | TRAIN ACC:  85.1562 %
+2020-04-19 19:20:57,288 | train.py   | line 138: # BATCH:  165 | LOSS:    0.3060 | TRAIN ACC:  85.9375 %
+2020-04-19 19:20:57,379 | train.py   | line 138: # BATCH:  170 | LOSS:    0.2918 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:57,470 | train.py   | line 138: # BATCH:  175 | LOSS:    0.1931 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:57,561 | train.py   | line 138: # BATCH:  180 | LOSS:    0.3353 | TRAIN ACC:  86.7188 %
+2020-04-19 19:20:57,652 | train.py   | line 138: # BATCH:  185 | LOSS:    0.3032 | TRAIN ACC:  87.5000 %
+2020-04-19 19:20:57,743 | train.py   | line 138: # BATCH:  190 | LOSS:    0.2498 | TRAIN ACC:  89.8438 %
+2020-04-19 19:20:57,835 | train.py   | line 138: # BATCH:  195 | LOSS:    0.2818 | TRAIN ACC:  89.0625 %
+2020-04-19 19:20:57,863 | train.py   | line 156: 
+2020-04-19 19:20:57,863 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:20:59,588 | train.py   | line 174: **** VALIDATION ACCURACY = 83.29 %
+2020-04-19 19:20:59,588 | train.py   | line 175: 
+2020-04-19 19:20:59,588 | train.py   | line 176: 
+2020-04-19 19:20:59,588 | train.py   | line 91 : ################################################################
+2020-04-19 19:20:59,588 | train.py   | line 92 : #### EPOCH #    3
+2020-04-19 19:20:59,588 | train.py   | line 93 : ################################################################
+2020-04-19 19:20:59,697 | train.py   | line 138: # BATCH:    5 | LOSS:    0.1588 | TRAIN ACC:  96.8750 %
+2020-04-19 19:20:59,785 | train.py   | line 138: # BATCH:   10 | LOSS:    0.2382 | TRAIN ACC:  92.1875 %
+2020-04-19 19:20:59,875 | train.py   | line 138: # BATCH:   15 | LOSS:    0.1280 | TRAIN ACC:  95.3125 %
+2020-04-19 19:20:59,965 | train.py   | line 138: # BATCH:   20 | LOSS:    0.0985 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:00,054 | train.py   | line 138: # BATCH:   25 | LOSS:    0.1446 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:00,143 | train.py   | line 138: # BATCH:   30 | LOSS:    0.1254 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:00,233 | train.py   | line 138: # BATCH:   35 | LOSS:    0.1832 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:00,323 | train.py   | line 138: # BATCH:   40 | LOSS:    0.1746 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:00,411 | train.py   | line 138: # BATCH:   45 | LOSS:    0.1483 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:00,499 | train.py   | line 138: # BATCH:   50 | LOSS:    0.2324 | TRAIN ACC:  92.9688 %
+2020-04-19 19:21:00,589 | train.py   | line 138: # BATCH:   55 | LOSS:    0.1108 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:00,678 | train.py   | line 138: # BATCH:   60 | LOSS:    0.1746 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:00,767 | train.py   | line 138: # BATCH:   65 | LOSS:    0.1621 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:00,856 | train.py   | line 138: # BATCH:   70 | LOSS:    0.2717 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:00,945 | train.py   | line 138: # BATCH:   75 | LOSS:    0.1161 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:01,035 | train.py   | line 138: # BATCH:   80 | LOSS:    0.1859 | TRAIN ACC:  91.4062 %
+2020-04-19 19:21:01,124 | train.py   | line 138: # BATCH:   85 | LOSS:    0.1491 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:01,215 | train.py   | line 138: # BATCH:   90 | LOSS:    0.1826 | TRAIN ACC:  92.9688 %
+2020-04-19 19:21:01,304 | train.py   | line 138: # BATCH:   95 | LOSS:    0.2002 | TRAIN ACC:  92.1875 %
+2020-04-19 19:21:01,394 | train.py   | line 138: # BATCH:  100 | LOSS:    0.1944 | TRAIN ACC:  92.1875 %
+2020-04-19 19:21:01,490 | train.py   | line 138: # BATCH:  105 | LOSS:    0.1657 | TRAIN ACC:  92.1875 %
+2020-04-19 19:21:01,579 | train.py   | line 138: # BATCH:  110 | LOSS:    0.1877 | TRAIN ACC:  92.1875 %
+2020-04-19 19:21:01,669 | train.py   | line 138: # BATCH:  115 | LOSS:    0.0921 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:01,759 | train.py   | line 138: # BATCH:  120 | LOSS:    0.1807 | TRAIN ACC:  89.8438 %
+2020-04-19 19:21:01,849 | train.py   | line 138: # BATCH:  125 | LOSS:    0.1762 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:01,923 | train.py   | line 138: # BATCH:  130 | LOSS:    0.1617 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:02,011 | train.py   | line 138: # BATCH:  135 | LOSS:    0.1126 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:02,100 | train.py   | line 138: # BATCH:  140 | LOSS:    0.1614 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:02,189 | train.py   | line 138: # BATCH:  145 | LOSS:    0.1436 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:02,276 | train.py   | line 138: # BATCH:  150 | LOSS:    0.1256 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:02,365 | train.py   | line 138: # BATCH:  155 | LOSS:    0.1663 | TRAIN ACC:  92.9688 %
+2020-04-19 19:21:02,454 | train.py   | line 138: # BATCH:  160 | LOSS:    0.1772 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:02,543 | train.py   | line 138: # BATCH:  165 | LOSS:    0.1039 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:02,632 | train.py   | line 138: # BATCH:  170 | LOSS:    0.1673 | TRAIN ACC:  90.6250 %
+2020-04-19 19:21:02,722 | train.py   | line 138: # BATCH:  175 | LOSS:    0.2157 | TRAIN ACC:  91.4062 %
+2020-04-19 19:21:02,811 | train.py   | line 138: # BATCH:  180 | LOSS:    0.1979 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:02,901 | train.py   | line 138: # BATCH:  185 | LOSS:    0.2074 | TRAIN ACC:  89.8438 %
+2020-04-19 19:21:02,990 | train.py   | line 138: # BATCH:  190 | LOSS:    0.1535 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:03,079 | train.py   | line 138: # BATCH:  195 | LOSS:    0.1090 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:03,106 | train.py   | line 156: 
+2020-04-19 19:21:03,106 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:21:04,756 | train.py   | line 174: **** VALIDATION ACCURACY = 83.41 %
+2020-04-19 19:21:04,756 | train.py   | line 175: 
+2020-04-19 19:21:04,756 | train.py   | line 176: 
+2020-04-19 19:21:04,756 | train.py   | line 91 : ################################################################
+2020-04-19 19:21:04,756 | train.py   | line 92 : #### EPOCH #    4
+2020-04-19 19:21:04,756 | train.py   | line 93 : ################################################################
+2020-04-19 19:21:04,865 | train.py   | line 138: # BATCH:    5 | LOSS:    0.0638 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:04,953 | train.py   | line 138: # BATCH:   10 | LOSS:    0.0870 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:05,042 | train.py   | line 138: # BATCH:   15 | LOSS:    0.0919 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:05,132 | train.py   | line 138: # BATCH:   20 | LOSS:    0.0536 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:05,220 | train.py   | line 138: # BATCH:   25 | LOSS:    0.0442 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:05,310 | train.py   | line 138: # BATCH:   30 | LOSS:    0.1252 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:05,399 | train.py   | line 138: # BATCH:   35 | LOSS:    0.0488 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:05,488 | train.py   | line 138: # BATCH:   40 | LOSS:    0.1324 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:05,577 | train.py   | line 138: # BATCH:   45 | LOSS:    0.0972 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:05,666 | train.py   | line 138: # BATCH:   50 | LOSS:    0.1049 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:05,755 | train.py   | line 138: # BATCH:   55 | LOSS:    0.0714 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:05,844 | train.py   | line 138: # BATCH:   60 | LOSS:    0.0654 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:05,933 | train.py   | line 138: # BATCH:   65 | LOSS:    0.0736 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:06,022 | train.py   | line 138: # BATCH:   70 | LOSS:    0.1050 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:06,111 | train.py   | line 138: # BATCH:   75 | LOSS:    0.0998 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:06,202 | train.py   | line 138: # BATCH:   80 | LOSS:    0.1107 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:06,291 | train.py   | line 138: # BATCH:   85 | LOSS:    0.1290 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:06,381 | train.py   | line 138: # BATCH:   90 | LOSS:    0.0347 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:06,471 | train.py   | line 138: # BATCH:   95 | LOSS:    0.0291 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:06,561 | train.py   | line 138: # BATCH:  100 | LOSS:    0.1099 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:06,657 | train.py   | line 138: # BATCH:  105 | LOSS:    0.0759 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:06,747 | train.py   | line 138: # BATCH:  110 | LOSS:    0.0996 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:06,836 | train.py   | line 138: # BATCH:  115 | LOSS:    0.0816 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:06,926 | train.py   | line 138: # BATCH:  120 | LOSS:    0.0408 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:07,014 | train.py   | line 138: # BATCH:  125 | LOSS:    0.0931 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:07,104 | train.py   | line 138: # BATCH:  130 | LOSS:    0.1353 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:07,192 | train.py   | line 138: # BATCH:  135 | LOSS:    0.0693 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:07,280 | train.py   | line 138: # BATCH:  140 | LOSS:    0.1102 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:07,370 | train.py   | line 138: # BATCH:  145 | LOSS:    0.1855 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:07,459 | train.py   | line 138: # BATCH:  150 | LOSS:    0.1021 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:07,548 | train.py   | line 138: # BATCH:  155 | LOSS:    0.0642 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:07,636 | train.py   | line 138: # BATCH:  160 | LOSS:    0.1169 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:07,725 | train.py   | line 138: # BATCH:  165 | LOSS:    0.1647 | TRAIN ACC:  93.7500 %
+2020-04-19 19:21:07,887 | train.py   | line 138: # BATCH:  175 | LOSS:    0.1054 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:07,975 | train.py   | line 138: # BATCH:  180 | LOSS:    0.0558 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:08,064 | train.py   | line 138: # BATCH:  185 | LOSS:    0.1231 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:08,152 | train.py   | line 138: # BATCH:  190 | LOSS:    0.1438 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:08,241 | train.py   | line 138: # BATCH:  195 | LOSS:    0.1138 | TRAIN ACC:  95.3125 %
+2020-04-19 19:21:08,268 | train.py   | line 156: 
+2020-04-19 19:21:08,268 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:21:09,922 | train.py   | line 174: **** VALIDATION ACCURACY = 82.84 %
+2020-04-19 19:21:09,922 | train.py   | line 175: 
+2020-04-19 19:21:09,922 | train.py   | line 176: 
+2020-04-19 19:21:09,922 | train.py   | line 91 : ################################################################
+2020-04-19 19:21:09,922 | train.py   | line 92 : #### EPOCH #    5
+2020-04-19 19:21:09,922 | train.py   | line 93 : ################################################################
+2020-04-19 19:21:10,032 | train.py   | line 138: # BATCH:    5 | LOSS:    0.0202 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:10,120 | train.py   | line 138: # BATCH:   10 | LOSS:    0.0526 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:10,210 | train.py   | line 138: # BATCH:   15 | LOSS:    0.0964 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:10,300 | train.py   | line 138: # BATCH:   20 | LOSS:    0.0471 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:10,389 | train.py   | line 138: # BATCH:   25 | LOSS:    0.0493 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:10,479 | train.py   | line 138: # BATCH:   30 | LOSS:    0.0996 | TRAIN ACC:  94.5312 %
+2020-04-19 19:21:10,569 | train.py   | line 138: # BATCH:   35 | LOSS:    0.0681 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:10,658 | train.py   | line 138: # BATCH:   40 | LOSS:    0.0598 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:10,748 | train.py   | line 138: # BATCH:   45 | LOSS:    0.0447 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:10,838 | train.py   | line 138: # BATCH:   50 | LOSS:    0.0217 | TRAIN ACC: 100.0000 %
+2020-04-19 19:21:10,928 | train.py   | line 138: # BATCH:   55 | LOSS:    0.0472 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:11,017 | train.py   | line 138: # BATCH:   60 | LOSS:    0.0363 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:11,107 | train.py   | line 138: # BATCH:   65 | LOSS:    0.0491 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:11,197 | train.py   | line 138: # BATCH:   70 | LOSS:    0.0482 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:11,287 | train.py   | line 138: # BATCH:   75 | LOSS:    0.0855 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:11,378 | train.py   | line 138: # BATCH:   80 | LOSS:    0.0594 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:11,468 | train.py   | line 138: # BATCH:   85 | LOSS:    0.0515 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:11,557 | train.py   | line 138: # BATCH:   90 | LOSS:    0.0519 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:11,647 | train.py   | line 138: # BATCH:   95 | LOSS:    0.0281 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:11,736 | train.py   | line 138: # BATCH:  100 | LOSS:    0.0486 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:11,833 | train.py   | line 138: # BATCH:  105 | LOSS:    0.0931 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:11,923 | train.py   | line 138: # BATCH:  110 | LOSS:    0.0590 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:12,013 | train.py   | line 138: # BATCH:  115 | LOSS:    0.0292 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:12,103 | train.py   | line 138: # BATCH:  120 | LOSS:    0.0433 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:12,193 | train.py   | line 138: # BATCH:  125 | LOSS:    0.0477 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:12,265 | train.py   | line 138: # BATCH:  130 | LOSS:    0.0618 | TRAIN ACC:  96.0938 %
+2020-04-19 19:21:12,354 | train.py   | line 138: # BATCH:  135 | LOSS:    0.0298 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:12,443 | train.py   | line 138: # BATCH:  140 | LOSS:    0.0780 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:12,532 | train.py   | line 138: # BATCH:  145 | LOSS:    0.0689 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:12,621 | train.py   | line 138: # BATCH:  150 | LOSS:    0.0661 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:12,711 | train.py   | line 138: # BATCH:  155 | LOSS:    0.0643 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:12,800 | train.py   | line 138: # BATCH:  160 | LOSS:    0.0822 | TRAIN ACC:  96.8750 %
+2020-04-19 19:21:12,889 | train.py   | line 138: # BATCH:  165 | LOSS:    0.0450 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:12,978 | train.py   | line 138: # BATCH:  170 | LOSS:    0.0307 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:13,067 | train.py   | line 138: # BATCH:  175 | LOSS:    0.0642 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:13,156 | train.py   | line 138: # BATCH:  180 | LOSS:    0.0770 | TRAIN ACC:  97.6562 %
+2020-04-19 19:21:13,246 | train.py   | line 138: # BATCH:  185 | LOSS:    0.0499 | TRAIN ACC:  98.4375 %
+2020-04-19 19:21:13,334 | train.py   | line 138: # BATCH:  190 | LOSS:    0.0347 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:13,423 | train.py   | line 138: # BATCH:  195 | LOSS:    0.0410 | TRAIN ACC:  99.2188 %
+2020-04-19 19:21:13,451 | train.py   | line 156: 
+2020-04-19 19:21:13,451 | train.py   | line 157: **** RUNNING VALIDATION...
+2020-04-19 19:21:15,099 | train.py   | line 174: **** VALIDATION ACCURACY = 83.46 %
+2020-04-19 19:21:15,099 | train.py   | line 175: 
+2020-04-19 19:21:15,100 | train.py   | line 176: 
